@@ -3,9 +3,6 @@ import React,{useState}from 'react'
 const Counter = () => {
 
 const[count, setCount] = useState(0);
-const [increment, setIncrement] = useState(0);
-const [decrement, setDecrement] = useState(0);
-
 
     return (
         <div align="center">
